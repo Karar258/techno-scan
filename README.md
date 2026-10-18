@@ -21,7 +21,7 @@ npm run build
 - **Build output directory:** `dist`
 - **Node.js version:** 20 أو أحدث
 
-يتضمن `public/_redirects` قاعدة SPA لتمرير المسارات مثل `/p/linen-shirt` إلى التطبيق، وتُنسخ تلقائياً إلى `dist/_redirects` عند البناء.
+لا حاجة إلى ملف `_redirects` لتطبيق SPA على Cloudflare Pages؛ عند غياب `404.html` في جذر مجلد النشر، يمرر Pages المسارات مثل `/p/linen-shirt` إلى التطبيق تلقائياً.
 
 ## ملاحظات النسخة الحالية
 
